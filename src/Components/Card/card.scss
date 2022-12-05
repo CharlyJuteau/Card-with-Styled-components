@@ -1,0 +1,104 @@
+.Title {
+    font-weight:400;
+    text-align: center;
+    gap: 1;
+
+    // .heart {
+    //   font-size: 150%;
+    //   background-color: unset;
+    //   border: none;
+    //   &:hover {
+    //   cursor: pointer;
+    //   }
+    //   }
+    }
+
+      .active-heart {
+        position: relative;
+        font-size: 150%;
+      background-color: unset;
+      border: none;
+      left:85%;
+          color: red;
+          padding: 0.5rem;
+        }
+      
+        .inactive-heart {
+          position: relative;
+          left: 85%;
+          font-size: 150%;
+      background-color: unset;
+      border: none;
+          color: grey;
+          padding: 0.5rem;
+        }
+      
+
+
+// const Heart = styled.div`
+// text-align: right;
+// font-size: 200%;
+// padding-right: 5%;
+// padding-top: 5%;
+// &:hover {
+// cursor: pointer;
+// }
+
+// `;
+
+.card {
+    
+    border-radius: 5%;
+    width: 18rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    /* &:hover {
+      background-color: #105b72c2;
+      color: white;
+      width: 45rem;
+      height: 45rem;
+    } */
+}
+
+.imageNantes {
+position: relative;
+overflow: hidden;
+  height: 8rem;
+  left: 20%;
+}
+
+.Activities {
+text-align: center;
+
+}
+
+.Text {
+text-align: center;
+}
+
+.card-footer {
+display : flex;
+justify-content: center;
+border: dotted 1px green;
+
+
+.stars {
+font-size: 150%;
+background-color: unset;
+border: none;
+&:hover {
+cursor: pointer;
+}
+}
+
+.active-star {
+    color: gold;
+    padding: 0.5rem;
+  }
+
+  .inactive-star {
+    color: grey;
+    padding: 0.5rem;
+  }
+}
+
